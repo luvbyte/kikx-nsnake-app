@@ -1,0 +1,20 @@
+{
+  "name": "com.lvbyte.nsnake",
+  "title": "NeonSnake",
+  "author": "luvbyte",
+  "category": "Games",
+  "description": "Neon snake",
+  "version": "0.1.0",
+  "kikx_version": "0.4.0",
+
+  "include": ["public", "www"],
+
+  "iframe": {
+    "allowfullscreen": true,
+    "sandbox": ["allow-scripts"]
+  },
+
+  "services": ["kv"],
+
+  "theme": "dark"
+}
